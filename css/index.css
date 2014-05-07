@@ -69,12 +69,12 @@ body{
 	height: 50px;
 	width: 100%;
 	display: block;
-	background: white;
 	position: fixed;
 	bottom: 0;
 }
 .footer-nav-wrap{
 	border-top: 1px solid #cdcdcd;
+	background: white;
 }
 .footer-nav__menu{}
 .footer-nav__menu .nav__menu-box{
