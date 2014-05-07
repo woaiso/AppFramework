@@ -1,0 +1,45 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Hkx
+ * Date: 14-5-7
+ * Time: 下午5:19
+ */
+
+/*============*/
+/*=====common=======*/
+/*============*/
+.img{
+	vertical-align: middle;
+}
+.user-img{
+	margin-left: 10px;
+}
+.first-border{
+	border: 1px solid #d4d4d4;
+}
+.last-border{
+	border-left: none;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+}
+.button{
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);
+	display: -moz-inline-stack;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1;
+	/*border: 1px solid #d4d4d4;*/
+	height: 35px;
+	line-height: 35px;
+	font-weight: 300;
+	font-size: 14px;
+	font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #666666;
+	text-shadow: 0 1px 1px white;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+}

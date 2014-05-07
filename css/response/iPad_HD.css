@@ -1,0 +1,38 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Hkx
+ * Date: 14-5-7
+ * Time: 下午4:33
+ */
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+}
+@media only screen and (min-width: 800px) and (max-width: 1366px) {
+	.footer-nav{
+		height: auto;
+		width: 100%;
+		display: block;
+		background: white;
+		position: relative;
+	}
+}
+
+@media only screen and (min-width: 1024px) {}
