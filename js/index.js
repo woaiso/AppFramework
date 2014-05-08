@@ -5,5 +5,9 @@
  * Time: 下午4:34
  */
 (function(doc,win){
+    var mod = (function(mod){
 
+        return mod;
+    }(win.mod || {}));
+    win['mod'] = mod;
 }(document,window));

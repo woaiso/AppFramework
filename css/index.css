@@ -16,12 +16,17 @@ body{
 	line-height: 90px;
 	background-color: white;
 	border-bottom: 1px solid #cdcdcd;
+	position: relative;
+	z-index: 2;
 }
 .header.header-bg{
 	background-image: url(../images/background.jpg);
 }
 .header-userInfo{}
 .header-userInfo .userName{
+	color: white;
+}
+.header-userInfo .userInfo-class{
 	color: white;
 }
 .section{

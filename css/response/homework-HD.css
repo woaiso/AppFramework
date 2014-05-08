@@ -1,0 +1,63 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Hkx
+ * Date: 14-5-8
+ * Time: 下午4:20
+ */
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1366px) {
+	.section.section-HD{
+		width: 100%;
+	}
+	.section.section-HD{
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow:row wrap;
+		   -moz-flex-flow: row wrap;
+		    -ms-flex-flow: row wrap;
+		        flex-flow:row wrap;
+		-webkit-justify-content: space-around;
+		   -moz-justify-content: space-around;
+		    -ms-justify-content: space-around;
+		        justify-content: space-around;
+	}
+	.article-list.fl-HD{
+		-webkit-box-flex: 1;
+		   -moz-box-flex: 1 1 auto;
+		    -webkit-flex: 1 1 auto;
+		        -ms-flex: 1 1 auto;
+		            flex: 1 1 auto;
+	}
+	.article-list__wrap.list-wrap-HD{
+		/*margin: 0 auto;*/
+		width: 200px;
+		height: 120px;
+		-webkit-box-shadow: 0 8px 5px -8px rgb(143, 143, 143);
+		box-shadow: 0 8px 5px -8px rgb(143, 143, 143);
+	}
+}
+@media only screen and (min-width: 1024px) {}

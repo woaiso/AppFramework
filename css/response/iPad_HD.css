@@ -25,24 +25,26 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
 }
+
 @media only screen and (min-width: 950px) and (max-width: 1366px) {
 	.section{
 		width: 75%;
 		float: right;
 	}
 	.footer-nav{
-		padding: 10px;
+		padding: 0 10px;
 		width: 230px;
-		display: block;
-		position: fixed;
-		top: 91px;
 		height: 100%;
+		display: block;
 		background: white;
+		-webkit-box-shadow: 11px 0 5px -8px rgba(82, 82, 82, 0.2);
+		        box-shadow: 11px 0 5px -8px rgba(82, 82, 82, 0.2);
 	}
 	.footer-nav-wrap{
 		display: block;
 		background: white;
 		border-top: none;
+		margin-top: 100px;
 	}
 	.footer-nav-wrap:after{
 		clear:both;
@@ -55,15 +57,49 @@ and (orientation : portrait) {
 		display: block;
 		float: left;
 		width: 112px;
-		height: 80px;
+		height: 100px;
+		margin-left: 1px;
 	}
+
+	.footer-nav__menu .nav__menu-box{
+		width: 112px;
+		height: 100px;
+		border-top: 1px solid #cdcdcd;
+		border-right: 1px solid #cdcdcd;
+		border-left: 1px solid #cdcdcd;
+	}
+	.footer-nav__menu  .nav__menu-box.lastSet{
+		border-top: none;
+		border-bottom: 1px solid #cdcdcd;
+	}
+	.footer-nav__menu .nav__menu-box{}
 	.footer-nav__menu .nav__menu-box .icon {
 		display: block;
-		height: 50px;
+		height: 70px;
 		background: #F4F4F4;
 	}
 	.footer-nav__menu .nav__menu-box .iconText{
 		font-size: 14px;
+	}
+	.footer-nav__menu .nav__menu-box .icon.one{
+		background:url(../../images/book.png)no-repeat center center;
+		background-size: 40px 40px;
+	}
+	.footer-nav__menu .nav__menu-box .icon.two{
+		background:url(../../images/books.png)no-repeat center center;
+		background-size: 40px 40px;
+	}
+	.footer-nav__menu .nav__menu-box .icon.three{
+		background:url(../../images/graduate.png)no-repeat center center;
+		background-size: 40px 40px;
+	}
+	.footer-nav__menu .nav__menu-box .icon.four{
+		background:url(../../images/star.png)no-repeat center center;
+		background-size: 40px 40px;
+	}
+	.footer-nav__menu .nav__menu-box .icon.five{
+		background:url(../../images/descendant.png)no-repeat center center;
+		background-size: 40px 40px;
 	}
 }
 @media only screen and (min-width: 1024px) {}

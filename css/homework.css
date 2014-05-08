@@ -1,0 +1,107 @@
+/**
+ * Created with JetBrains WebStorm.
+ * User: Hkx
+ * Date: 14-5-8
+ * Time: 下午3:14
+ */
+*{
+	-webkit-text-size-adjust: none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+body{
+	background: #F4F4F4;
+}
+.header-homework{
+	height: 45px;
+	line-height: 45px;
+	background: white;
+	border-bottom: 1px solid #d4d4d4;
+	/*-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
+	   /*-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
+	        /*box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
+}
+.header-fl-nav{}
+.header-fl-nav:after{
+	clear:both;
+	content:'.';
+	height:0;
+	visibility:hidden;
+	display:block;
+}
+.header-fl-nav .header-fl-nav__l{
+	float: left;
+}
+.header-fl-nav .header-fl-nav__l .nav__l-wrap{
+	border: 1px solid #ebebeb;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 7px 4px;
+}
+.header-fl-nav .header-fl-nav__r{
+	float: right;
+}
+.header-fl-nav .header-fl-nav__r .nav__r-wrap{
+	border: 1px solid #ebebeb;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 7px 4px;
+}
+.header-fl-nav .header-fl-nav__center{
+	text-align: center;
+}
+.header-fl-nav .header-fl-nav__l .leftText{
+	font-size: 12.5px;
+	color: #27d0a7;
+	margin-left: -5px;
+}
+.header-fl-nav .header-fl-nav__r .rightText{
+	font-size: 12.5px;
+	color: #27d0a7;
+	margin-left: -5px;
+}
+.header-fl-nav .header-fl-nav__center .centerText{
+	font-size: 18px;
+	font-weight: bold;
+}
+.section .article-list{
+	padding: 10px;
+}
+.article-list .article-list__wrap{
+	background: white;
+	padding: 10px;
+	border: 1px solid #E6E6E6;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.article-list__wrap .list-title{}
+.article-list__wrap .list-content{
+	margin-top: 18px;
+	line-height: 22px;
+	font-size: 14px;
+	color: #5e5e5e;
+}
+.article-list__wrap .list-title .list-title__first{
+	color: #00a5ff;
+	font-size: 18px;
+}
+.article-list__wrap .list-title .list-title__date{
+	color: #5e5e5e;
+	font-size: 14px;
+	margin-left: 30px;
+}
+.article-text{
+	padding: 10px;
+}
+.article-text__wrap{}
+.article-text__wrap .text{
+	font-size: 20px;
+	font-weight: bold;
+	color: #5e5e5e;
+}
+.article-text__hr{
+	margin-top: 12px;
+ 	border-bottom: 2px solid #27d0a7;
+}
