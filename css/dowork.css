@@ -87,16 +87,19 @@ body{
 	font-weight: bold;
 	background: rgb(245, 85, 92);;
 }
-.article-work-list__content{
+.article-work-list__content,.list__footer-content{
 	margin-top: 10px;
 }
 .article-work-list__content .content-title{
 	color: #7a7a7a;
 	overflow: hidden;
 }
-.article-work-list__content .content-title,.content-sub{
+.article-work-list__content .content-title,.content-sub,.article-work-list__footer{
 	padding: 10px;
 	line-height: 20px;
+}
+.article-work-list__footer .line-footer{
+	border-top: 1px solid #CDCDCD;
 }
 .footer{
 	position: fixed;
