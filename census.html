@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
-	<meta name="apple-mobile-web-app-capable" content="yes"/>
-	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-	<meta name="format-detection" content="telephone=no"/>
-	<link rel="apple-touch-startup-image" href="startup.png"/>
-	<link rel="apple-touch-icon" href="iphon_tetris_icon.png"/>
-</head>
-<body>
-
-</body>
+	<head>
+		<title>DEMO</title>
+		<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="apple-touch-startup-image" href="startup.png"/>
+		<link rel="apple-touch-icon" href="iphon_tetris_icon.png"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/census.css"/>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	</head>
+	<body>
+		<header class="header-census">
+			<div class="header-fl-nav">
+				<div class="header-fl-nav__l">
+					<a class="nav__l-wrap">
+						<img class="img" src="images/arrow.png" width="20" height="20"/>
+						<span class="leftText">返回</span>
+					</a>
+				</div>
+				<div class="header-fl-nav__r">
+					<a class="nav__r-wrap">
+						<img class="img" src="images/arrow408.png" width="20" height="20"/>
+						<span class="rightText">过滤</span>
+					</a>
+				</div>
+				<div class="header-fl-nav__center">
+					<span class="centerText">数据统计</span>
+				</div>
+			</div>
+		</header>
+		<section class="section">
+			<article class="article-button">
+				<div class="article-button__wrap">
+					<ul class="flex-parent">
+						<li class="flex-child button first-border">
+							<div class="buttonBox">
+								<img class="img" src="images/icon/icon_main_edit.png" width="25" height="25"/>
+								<a class="">个人日报</a>
+							</div>
+						</li>
+						<li class="flex-child button last-border">
+							<div class="buttonBox">
+								<img class="img" src="images/icon/icon_main_hammer.png" width="20" height="20"/>
+								<a class="">个人周报</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</article>
+		</section>
+		<footer></footer>
+	</body>
 </html>

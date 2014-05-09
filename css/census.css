@@ -2,7 +2,7 @@
  * Created with JetBrains WebStorm.
  * User: Hkx
  * Date: 14-5-8
- * Time: 下午3:14
+ * Time: 下午5:46
  */
 *{
 	-webkit-text-size-adjust: none;
@@ -11,14 +11,14 @@
 body{
 	background: #F4F4F4;
 }
-.header-homework{
+.header-census{
 	height: 45px;
 	line-height: 45px;
 	background: white;
 	border-bottom: 1px solid #d4d4d4;
 	/*-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
-	   /*-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
-	        /*box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
+	/*-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
+	/*box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.15);*/
 }
 .header-fl-nav{}
 .header-fl-nav:after{
@@ -65,43 +65,41 @@ body{
 	font-size: 18px;
 	font-weight: bold;
 }
-.section .article-list{
+.section .article-button{
 	padding: 10px;
 }
-.article-list .article-list__wrap{
-	background: white;
-	padding: 10px;
-	border: 1px solid #E6E6E6;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+.section .article-button .article-button__wrap{
+	background-color: white;
 }
-.article-list__wrap .list-title{}
-.article-list__wrap .list-content{
-	margin-top: 18px;
-	line-height: 22px;
+.article-button__wrap .buttonBox{
+	width: 120px;
+	margin: 0 auto;
+	color: #27d0a7;
 	font-size: 14px;
-	color: #5e5e5e;
-}
-.article-list__wrap .list-title .list-title__first{
-	color: #00a5ff;
-	font-size: 18px;
-}
-.article-list__wrap .list-title .list-title__date{
-	color: #5e5e5e;
-	font-size: 14px;
-	margin-left: 30px;
-}
-.article-text{
-	padding: 10px;
-}
-.article-text__wrap{}
-.article-text__wrap .text{
-	font-size: 20px;
 	font-weight: bold;
-	color: #5e5e5e;
 }
-.article-text__hr{
-	margin-top: 12px;
- 	border-bottom: 2px solid #27d0a7;
+/*============*/
+/*=====layout=======*/
+/*============*/
+.flex-parent{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow:row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow:row wrap;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+.flex-child{
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
 }
